@@ -25,13 +25,13 @@ cd Task
 ```
 2. **Create a virtual environment**
 
-# Windows
+**Windows**
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-# macOS/Linux
+**macOS/Linux**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -89,7 +89,7 @@ The following table lists all available API endpoints, their functionality, and 
 
 **Request:**
 
-
+```bash
 POST /api/token/
 Content-Type: application/json
 
@@ -97,11 +97,13 @@ Content-Type: application/json
   "username": "author1",
   "password": "1234"
 }
+```
 
 **Response:**
+```bash
 
 {
   "access": "eyJ0eXAiOiJKV1QiLCJh...",
   "refresh": "eyJ0eXAiOiJKV1QiLCJh..."
 }
-
+```
