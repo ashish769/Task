@@ -64,6 +64,12 @@ DB_PASSWORD=your_db_password
 DB_HOST=localhost
 DB_PORT=5432
 ```
+
+## Make user from the CLI
+```bash
+python manage.py create_user --username reader1 --password 1234 --role READER
+
+```
 ## API Endpoints
 
 The following table lists all available API endpoints, their functionality, and the roles allowed to access them.
