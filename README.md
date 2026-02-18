@@ -86,8 +86,8 @@ The following table lists all available API endpoints, their functionality, and 
 | PUT    | `/api/blogs/<id>/`    | Update a blog                   | AUTHOR (own blogs) / ADMIN                 |
 | DELETE | `/api/blogs/<id>/`    | Delete a blog                   | ADMIN                                      
 |POST    | `/api/blogs/<id>/publish/` | Publish a blog                  |ADMIN AND RESPECTIVE AUTHOR                 |
-|GET     |` api/blogs/my_blogs/ |See the all blog of the author     |Author                                |
-`
+|GET     |` api/blogs/my_blogs/` |See the all blog of the author     |Author                                |
+
 > **Note for Readers:**  
 > Readers are authenticated users with the **READER** role.  
 > They can only access `GET /api/blogs/` and `GET /api/blogs/<id>/` to read blogs. All other operations are restricted to **AUTHOR** or **ADMIN** roles.
