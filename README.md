@@ -67,6 +67,8 @@ DB_PORT=5432
 
 ## Make user from the CLI
 ```bash
+python manage.py create_user --username admin1 --password 1234 --role ADMIN
+python manage.py create_user --username author1 --password 1234 --role AUTHOR
 python manage.py create_user --username reader1 --password 1234 --role READER
 
 ```
